@@ -1,0 +1,285 @@
+/* Générales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F0F0F0; /* Fond général clair */
+}
+
+header {
+    background-color: #333333; /* Fond de l'en-tête */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FF6F61; /* Couleur au survol (rouge corail) */
+}
+
+/* Section d'accueil */
+.hero {
+    background-image: url('/images/PROMOTION1.png');
+    background-size: cover;
+    color: #1015ae;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff; /* Fond blanc pour les sections */
+}
+
+#promotions {
+    background-color: #FFFFFF; /* Fond des promotions */
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333333; /* Texte principal en gris foncé */
+}
+
+/* Grille des carrelages */
+.carrelages {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produit {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    padding: 20px;
+}
+
+.produit:hover {
+    transform: scale(1.05);
+}
+
+.produit img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.produit h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333333; /* Texte du produit en gris foncé */
+}
+
+.produit .prix {
+    text-decoration: line-through;
+    color: #888888; /* Prix barré en gris clair */
+    font-size: 1.1em;
+}
+
+.produit .prix-promo {
+    font-size: 1.4em;
+    color: #FF6F61; /* Prix promotionnel en rouge corail */
+    font-weight: bold;
+}
+
+/* Contact */
+#contact {
+    padding: 20px;
+    background-color: #333333; /* Fond sombre pour la section Contact */
+    color: #fff;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333333; /* Fond sombre du footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+/* Générales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F0F0F0; /* Fond général clair */
+}
+
+header {
+    background-color: #333333; /* Fond de l'en-tête */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FF6F61; /* Couleur au survol (rouge corail) */
+}
+
+/* Section d'accueil */
+.hero {
+    background-image: url('/images/PROMOTION1.png');
+    background-size: cover;
+    color: #1015ae;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff; /* Fond blanc pour les sections */
+}
+
+#promotions {
+    background-color: #FFFFFF; /* Fond des promotions */
+}
+
+/* Ajout du champ de recherche */
+#searchInput {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333333; /* Texte principal en gris foncé */
+}
+
+/* Grille des carrelages */
+.carrelages {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produit {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    padding: 20px;
+}
+
+.produit:hover {
+    transform: scale(1.05);
+}
+
+.produit img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain; /* Garder la forme géométrique originale */
+    border-radius: 8px;
+}
+
+.produit h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333333; /* Texte du produit en gris foncé */
+}
+
+.produit .prix {
+    text-decoration: line-through;
+    color: #888888; /* Prix barré en gris clair */
+    font-size: 1.1em;
+}
+
+.produit .prix-promo {
+    font-size: 1.4em;
+    color: #FF6F61; /* Prix promotionnel en rouge corail */
+    font-weight: bold;
+}
+
+/* Contact */
+#contact {
+    padding: 20px;
+    background-color: #333333; /* Fond sombre pour la section Contact */
+    color: #fff;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333333; /* Fond sombre du footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}

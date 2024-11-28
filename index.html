@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotions Carrelages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#promotions">Promotions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="accueil">
+        <div class="hero">
+            <h1>Bienvenus aux promotions de carrelages !</h1>
+            <p>Découvrez nos carrelages en promotion à des prix exceptionnels.</p>
+        </div>
+    </section>
+    
+    <section id="promotions">
+        <h2>Nos Promotions</h2>
+        <!-- Zone de recherche -->
+        <input type="text" id="searchInput" placeholder="Rechercher par nom de carrelage" onkeyup="filterProducts()">
+        
+        <div class="carrelages" id="productList">
+            <!-- Exemple de produit -->
+            <div class="produit" data-name="ANIKSA_PULIDO_120x260">
+                <img src="/images/1ANIKSA_PULIDO_120x260.jpg" alt="Carrelage A">
+                <h3>ANIKSA_PULIDO_120x260</h3>
+                <p class="prix">Prix : 550 DHS / m²</p>
+                <p class="prix-promo">Prix promotionnel : 350 DHS / m²</p>
+            </div>
+
+            <div class="produit" data-name="Chalet_Cervinia-honey_20_122cm">
+                <img src="/images/1Chalet_Cervinia-honey_20_122cm.jpg" alt="Carrelage B">
+                <h3>Chalet_Cervinia-honey_20_122cm</h3>
+                <p class="prix">Prix : 300 DHS / m²</p>
+                <p class="prix-promo">Prix promotionnel : 250 DHS / m²</p>
+            </div>
+
+            <div class="produit" data-name="gravity_oxide_60x120cm">
+                <img src="/images/1gravity_oxide_60x120cm.jpg" alt="Carrelage C">
+                <h3>gravity_oxide_60x120cm</h3>
+                <p class="prix">Prix : 300 DHS / m²</p>
+                <p class="prix-promo">Prix promotionnel : 250 DHS / m²</p>
+            </div>
+
+            <div class="produit" data-name="Platinum-Beige-120x260cm">
+                <img src="/images/1Platinum-Beige-120x260cm.jpg" alt="Carrelage D">
+                <h3>Platinum-Beige-120x260cm</h3>
+                <p class="prix">Prix : 300 DHS / m²</p>
+                <p class="prix-promo">Prix promotionnel : 250 DHS / m²</p>
+            </div>
+            
+            <!-- Ajoute d'autres produits ici -->
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute information supplémentaire, n'hésitez pas à nous contacter.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Carrelages Promotionnels. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
